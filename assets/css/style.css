@@ -1,0 +1,39 @@
+body {
+    background: url("../images/backgimage.jpg");
+}
+
+.fontcolor {
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+.navbar-nav {
+    color: white;
+}
+
+.navbar {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    background-color: lightgray;
+    font-size: 20px;
+}
+
+.navbar-brand {
+    color: inherit;
+    background-color: grey;
+    text-align: center;
+    font-size: 25px;
+    width: 275px;
+    font-weight: bold;
+}
+
+.jumbotron {
+    background-color: lightgray;
+}
+
+#aboutcontainer {
+    background-color: lightgrey;
+}
