@@ -1,39 +1,35 @@
 body {
-    background: url("../images/backgimage.jpg");
+    background: url("../images/bluegradient.jpg");
+
 }
 
-.fontcolor {
-    color: white;
+container {
+    width: auto;
+    height: auto;
 }
 
-.nav-link {
-    color: white;
+.card {
+    background: yellow;
 }
 
-.navbar-nav {
-    color: white;
+html {
+    height:100%;
 }
 
-.navbar {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: white;
-    background-color: lightgray;
-    font-size: 20px;
+body{ 
+    height:100%;
+    background-color: #fcfcfc;
 }
-
-.navbar-brand {
-    color: inherit;
-    background-color: grey;
-    text-align: center;
-    font-size: 25px;
-    width: 275px;
-    font-weight: bold;
-}
-
-.jumbotron {
-    background-color: lightgray;
-}
-
-#aboutcontainer {
-    background-color: lightgrey;
+  
+.center {
+    position: absolute;
+    margin: auto;
+    top: 25%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+    background: transparent;
+    border-radius: 3px;
 }
