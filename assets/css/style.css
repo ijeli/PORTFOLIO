@@ -1,15 +1,27 @@
 body {
-    background: url("../images/bluegradient.jpg");
+    background: url("../images/wood_1.png");
 
 }
 
 container {
     width: auto;
     height: auto;
+    margin-top: 288px;
 }
 
 .card {
-    background: yellow;
+    background-color: rgb(212, 218, 223);
+    width: auto; 
+    height: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-width: 10px;
+    border-style: double;
+    border-color: rgb(53, 45, 45);
+}
+
+.cardStart {
+    margin-top: 100px;
 }
 
 html {
@@ -18,7 +30,6 @@ html {
 
 body{ 
     height:100%;
-    background-color: #fcfcfc;
 }
   
 .center {
@@ -30,6 +41,20 @@ body{
     left: 0;
     width: auto;
     height: auto;
-    background: transparent;
     border-radius: 3px;
+}
+
+.mainclickables:hover {
+    background: grey;
+    color: white;
+    cursor: pointer;
+}
+
+.test {
+    width: 910px;
+    height: 455px;
+}
+
+.hidden {
+    display: none;
 }

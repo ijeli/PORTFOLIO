@@ -7,6 +7,8 @@
     <link rel= "stylesheet" href = "assets/css/reset.css" type = "text/css"/>
     <link rel= "stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel = "stylesheet" href="assets/css/style.css" type= "text/css"/>
+    <link rel = "stylesheet" href="assets/css/animation.css" type= "text/css"/> <!--https://daneden.github.io/animate.css/-->
+
 </head>
 
 <body>
@@ -15,42 +17,65 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     
-    <div class = "container center">
-        <div class = "row">
-            <div class = "col-lg-4" align="center">
-                <div class = "card" style="width: 300px; height: 400px;">
-                    <br><br>
+
+    <div class = "container ">
+        <div class = "card cardStart bounceIn">
+            <br><br>
+            <div class = "row">
+                <div class = "col-lg-12">
                     <div class = "row">
-                        <div class = "col-lg-12">
-                            <div class = "row">
-                                <div class = "col-lg-12 text-center">
-                                    <img class = "rounded-circle" src = "./assets/images/holder.jpg" alt = "headshot" width="200px" height="200px">
-                                </div>
-                            </div>
-                            <br>
-                            <div class = "row">
-                                <div class = "col-lg-12 text-center">
-                                    <h3>Jeremy Legaspi</h3>
-                                </div>
-                            </div>
-                            <div class = "row">
-                                <div class = "col-lg-12 text-center">
-                                    <img src = "./assets/images/linkedin.png" alt = "Linkedin" width = "25px" height = "25px">
-                                    <img src = "./assets/images/github.png" alt = "Github" width = "25px" height = "25px">
-                                    <img src = "./assets/images/stackoverflow.png" alt = "Stack Overflow" width = "25px" height = "25px">
-                                </div>
-                            </div>
+                        <div class = "col-lg-12 text-center">
+                            <img class = "rounded-circle" src = "./assets/images/holder.jpg" alt = "headshot" width="200px" height="200px">
+                        </div>
+                    </div>
+                    <br>
+                    <div class = "row">
+                        <div class = "col-lg-12 text-center">
+                            <h1>Jeremy Legaspi</h1>
+                        </div>
+                    </div>
+                    <div class = "row">
+                        <div class = "col-lg-12 text-center">
+                            <img id = "linkedin" class = "mainclickables" src = "./assets/images/linkedin.png" alt = "Linkedin" width = "25px" height = "25px">
+                            <img id = "github" class = "mainclickables" src = "./assets/images/github.png" alt = "Github" width = "25px" height = "25px">
+                            <img id = "SOF" class = "mainclickables" src = "./assets/images/stackoverflow.png" alt = "Stack Overflow" width = "25px" height = "25px">
+                        </div>
+                    </div>
+                    <br>
+                    <div class = "row" align = "center">
+                        <div class = "col-lg-3">
+                            <h5 id = "about" class = "mainclickables">ABOUT</h5>
+                        </div>
+                        <div class = "col-lg-3">
+                            <h5 id = "resume" class = "mainclickables">RESUME</h5>
+                        </div>
+                        <div class = "col-lg-3">
+                            <h5 id = "works" class = "mainclickables">WORKS</h5>
+                        </div>
+                        <div class = "col-lg-3">
+                            <h5 id = "contact" class = "mainclickables">CONTACT</h5>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class = "col-lg-8">
-                <div class = "card" style = "width: auto; height: 400px;">
-                    <h1>content</h1>
-                </div>
-            </div>
+            <br>
         </div>
-    
+        <div id = "aboutCard" class = "card hidden">
+            <h1>about</h1>
+        </div>
+        <div id = "resumeCard" class = "card hidden">
+            <h1>resume</h1>
+        </div>
+        <div id = "worksCard" class = "card hidden">
+            <h1>works</h1>
+        </div>
+        <div id = "contactCard" class = "card hidden">
+            <h1>contact</h1>
+        </div>
+
+
+    </div>
+                
 
 
     <script src="assets/javascript/script.js"></script>
