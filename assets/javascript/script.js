@@ -1,6 +1,5 @@
 var content = $("#content");
 var about = $("#about");
-var resume = $("#resume");
 var works = $("#works");
 var contact = $("#contact");
 
@@ -12,18 +11,11 @@ about.on("click", function() {
     // $("#resumeCard").addClass("hidden")
     $("#worksCard").addClass("hidden")
     $("#contactCard").addClass("hidden")
-    $("#aboutCard").removeClass("fadeOutRight ")
-    $("#worksCard").removeClass("fadeOutRight ")
-    $("#contactCard").removeClass("fadeOutRight ")
+    $("#aboutCard").removeClass("fadeOutUp ")
+    $("#worksCard").removeClass("fadeOutUp ")
+    $("#contactCard").removeClass("fadeOutUp ")
 });
 
-// resume.on("click", function() {
-//     $("#aboutCard").addClass("hidden")
-//     $("#resumeCard").removeClass("hidden")
-//     $("#resumeCard").addClass("fadeInDown animated")
-//     $("#worksCard").addClass("hidden")
-//     $("#contactCard").addClass("hidden")
-// });
 
 works.on("click", function() {
     $("#aboutCard").addClass("hidden")
@@ -31,9 +23,9 @@ works.on("click", function() {
     $("#worksCard").removeClass("hidden")
     $("#worksCard").addClass("fadeInDown animated")
     $("#contactCard").addClass("hidden")
-    $("#aboutCard").removeClass("fadeOutRight ")
-    $("#worksCard").removeClass("fadeOutRight ")
-    $("#contactCard").removeClass("fadeOutRight ")
+    $("#aboutCard").removeClass("fadeOutUp ")
+    $("#worksCard").removeClass("fadeOutUp ")
+    $("#contactCard").removeClass("fadeOutUp ")
 });
 
 contact.on("click", function() {
@@ -42,15 +34,15 @@ contact.on("click", function() {
     $("#worksCard").addClass("hidden")
     $("#contactCard").removeClass("hidden")
     $("#contactCard").addClass("fadeInDown animated")
-    $("#aboutCard").removeClass("fadeOutRight ")
-    $("#worksCard").removeClass("fadeOutRight ")
-    $("#contactCard").removeClass("fadeOutRight ")
+    $("#aboutCard").removeClass("fadeOutUp ")
+    $("#worksCard").removeClass("fadeOutUp ")
+    $("#contactCard").removeClass("fadeOutUp ")
 });
 
 $(".hideallbutton").on("click", function() {
-    $("#aboutCard").addClass("fadeOutRight animated")
-    $("#worksCard").addClass("fadeOutRight animated")
-    $("#contactCard").addClass("fadeOutRight animated")
+    $("#aboutCard").addClass("fadeOutUp animated")
+    $("#worksCard").addClass("fadeOutUp animated")
+    $("#contactCard").addClass("fadeOutUp animated")
 });
 
 

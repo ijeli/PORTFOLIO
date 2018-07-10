@@ -11,6 +11,10 @@ container {
     margin-top: 288px;
 }
 
+.frontCard {
+    z-index: 1;
+}
+
 .card {
     background-color: rgb(212, 218, 223);
     width: auto; 
@@ -35,10 +39,6 @@ container {
     border-color: rgb(53, 45, 45);
 }
 
-html {
-    height:100%;
-    width: 100%
-}
 
   
 .center {
