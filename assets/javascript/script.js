@@ -37,13 +37,13 @@ about.on("click", function() {
     $("#contactCard").addClass("hidden")
 });
 
-resume.on("click", function() {
-    $("#aboutCard").addClass("hidden")
-    $("#resumeCard").removeClass("hidden")
-    $("#resumeCard").addClass("fadeInDown animated")
-    $("#worksCard").addClass("hidden")
-    $("#contactCard").addClass("hidden")
-});
+// resume.on("click", function() {
+//     $("#aboutCard").addClass("hidden")
+//     $("#resumeCard").removeClass("hidden")
+//     $("#resumeCard").addClass("fadeInDown animated")
+//     $("#worksCard").addClass("hidden")
+//     $("#contactCard").addClass("hidden")
+// });
 
 works.on("click", function() {
     $("#aboutCard").addClass("hidden")

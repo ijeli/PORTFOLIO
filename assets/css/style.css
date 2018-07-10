@@ -60,11 +60,12 @@ body{
     cursor: pointer;
 }
 
-.test {
-    width: 910px;
-    height: 455px;
-}
 
 .hidden {
     display: none;
+}
+
+h5 {
+    color: blue;
+    font-weight: bold;
 }
