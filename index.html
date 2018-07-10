@@ -8,6 +8,8 @@
     <link rel= "stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel = "stylesheet" href="assets/css/style.css" type= "text/css"/>
     <link rel = "stylesheet" href="assets/css/animation.css" type= "text/css"/> <!--https://daneden.github.io/animate.css/-->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
 
 </head>
 
@@ -18,8 +20,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     
 
-    <div class = "container ">
-        <div class = "card cardStart bounceIn">
+    <div id = "topme" class = "container ">
+        <div class = "card cardStart fadeInDown animated">
             <br>
             <div class = "row">
                 <div class = "col-lg-12">
@@ -31,7 +33,7 @@
                     <br>
                     <div class = "row">
                         <div class = "col-lg-12 text-center">
-                            <h1>Jeremy Legaspi</h1>
+                            <h1><strong>Legaspi</strong></h1>
                         </div>
                     </div>
                     <div class = "row">
@@ -58,7 +60,7 @@
                             <h5 id = "resume" class = "mainclickables">RESUME</h5>
                         </div> -->
                         <div class = "col-lg-4 ">
-                            <a href = "#worksCard" style = "text-decoration: none;">
+                            <a href = "#worksCardb" style = "text-decoration: none;">
                                 <h5 id = "works" class = "mainclickables">WORKS</h5>
                             </a>
                         </div>
@@ -72,9 +74,14 @@
             </div>
             <br>
         </div>
-        <div id = "aboutCard" class = "cards hidden" >
+        <div id = "aboutCard" class = "cards fadeInDown animated" >
             <br>
-            <h2 align = "center">About Me</h2>
+            <h2 align = "center">
+                About Me
+                <button type="button" class="btn btn-outline-dark btn-sm hideallbutton">
+                    <span class="fa fa-chevron-right"></span>
+                </button>
+            </h2>
             <div class = "row">
                 <div class = "col-lg-1"></div>
                 <div class = "col-lg-10 border-bottom border-dark"></div>
@@ -111,6 +118,7 @@
                     </div>
                     <div class = "col-lg-1"></div>
             </div>
+            <br>
         </div>
         <!-- <div id = "resumeCard" class = "cards hidden">
             <br>
@@ -129,7 +137,12 @@
         </div> -->
         <div id = "worksCard" class = "cards hidden">
             <br>
-            <h2  align = "center">Works</h2>
+            <h2  align = "center">
+                Works
+                <button type="button" class="btn btn-outline-dark btn-sm hideallbutton">
+                    <span class="fa fa-chevron-right"></span>
+                </button>
+            </h2>
             <div class = "row">
                 <div class = "col-lg-1"></div>
                 <div class = "col-lg-10 border-bottom border-dark"></div>
@@ -185,21 +198,40 @@
                     </div>
                 </div>
             </div>
-            <br>
+            <br id = "worksCardb">
         </div>
         <div id = "contactCard" class = "cards hidden">
             <br>
-            <h2  align = "center">Contact Me</h2>
+            <h2  align = "center">
+                Contact Me
+                <button type="button" class="btn btn-outline-dark btn-sm hideallbutton">
+                    <span class="fa fa-chevron-right"></span>
+                </button>
+            </h2>
             <div class = "row">
                 <div class = "col-lg-1"></div>
                 <div class = "col-lg-10 border-bottom border-dark"></div>
             </div>
+            <br>
             <div class = "row">
                 <div class = "col-lg-1"></div>
                 <div class = "col-lg-10">
-                    goods
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                <label>Full Name</label>
+                                <input type="text" class="form-control" id="inputFullName" placeholder="Juniper Lee">
+                                </div>
+                                <div class="form-group col-md-6">
+                                <label>Email</label>
+                                <input type="email" class="form-control" id="inputEmail" placeholder="jun.lee@gmail.com">
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
                 </div>
             </div>
+            <br>
         </div>
     </div>
     <br>

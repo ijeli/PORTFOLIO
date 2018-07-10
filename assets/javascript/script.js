@@ -4,37 +4,17 @@ var resume = $("#resume");
 var works = $("#works");
 var contact = $("#contact");
 
-// about.hover(
-//     function() { $("#aboutCard").removeClass("hidden")
-//     }, 
-//     function() { $("#aboutCard").addClass("hidden")
-// });
-
-// resume.hover(
-//     function() { $("#resumeCard").css("display", "inherit")
-//     }, 
-//     function() { $("#resumeCard").css("display", "none")
-// });
-
-// works.hover(
-//     function() { $("#worksCard").css("display", "inherit")
-//     }, 
-//     function() { $("#worksCard").css("display", "none")
-// });
-
-// contact.hover(
-//     function() { $("#contactCard").css("display", "inherit")
-//     }, 
-//     function() { $("#contactCard").css("display", "none")
-// });
 
 
 about.on("click", function() {
     $("#aboutCard").removeClass("hidden")
     $("#aboutCard").addClass("fadeInDown animated")
-    $("#resumeCard").addClass("hidden")
+    // $("#resumeCard").addClass("hidden")
     $("#worksCard").addClass("hidden")
     $("#contactCard").addClass("hidden")
+    $("#aboutCard").removeClass("fadeOutRight ")
+    $("#worksCard").removeClass("fadeOutRight ")
+    $("#contactCard").removeClass("fadeOutRight ")
 });
 
 // resume.on("click", function() {
@@ -47,18 +27,30 @@ about.on("click", function() {
 
 works.on("click", function() {
     $("#aboutCard").addClass("hidden")
-    $("#resumeCard").addClass("hidden")
+    // $("#resumeCard").addClass("hidden")
     $("#worksCard").removeClass("hidden")
     $("#worksCard").addClass("fadeInDown animated")
     $("#contactCard").addClass("hidden")
+    $("#aboutCard").removeClass("fadeOutRight ")
+    $("#worksCard").removeClass("fadeOutRight ")
+    $("#contactCard").removeClass("fadeOutRight ")
 });
 
 contact.on("click", function() {
     $("#aboutCard").addClass("hidden")
-    $("#resumeCard").addClass("hidden")
+    // $("#resumeCard").addClass("hidden")
     $("#worksCard").addClass("hidden")
     $("#contactCard").removeClass("hidden")
     $("#contactCard").addClass("fadeInDown animated")
+    $("#aboutCard").removeClass("fadeOutRight ")
+    $("#worksCard").removeClass("fadeOutRight ")
+    $("#contactCard").removeClass("fadeOutRight ")
+});
+
+$(".hideallbutton").on("click", function() {
+    $("#aboutCard").addClass("fadeOutRight animated")
+    $("#worksCard").addClass("fadeOutRight animated")
+    $("#contactCard").addClass("fadeOutRight animated")
 });
 
 
