@@ -31,7 +31,7 @@ var contact = $("#contact");
 
 about.on("click", function() {
     $("#aboutCard").removeClass("hidden")
-    $("#aboutCard").addClass("fadeInDown")
+    $("#aboutCard").addClass("fadeInDown animated")
     $("#resumeCard").addClass("hidden")
     $("#worksCard").addClass("hidden")
     $("#contactCard").addClass("hidden")
@@ -40,6 +40,7 @@ about.on("click", function() {
 resume.on("click", function() {
     $("#aboutCard").addClass("hidden")
     $("#resumeCard").removeClass("hidden")
+    $("#resumeCard").addClass("fadeInDown animated")
     $("#worksCard").addClass("hidden")
     $("#contactCard").addClass("hidden")
 });
@@ -48,6 +49,7 @@ works.on("click", function() {
     $("#aboutCard").addClass("hidden")
     $("#resumeCard").addClass("hidden")
     $("#worksCard").removeClass("hidden")
+    $("#worksCard").addClass("fadeInDown animated")
     $("#contactCard").addClass("hidden")
 });
 
@@ -56,6 +58,7 @@ contact.on("click", function() {
     $("#resumeCard").addClass("hidden")
     $("#worksCard").addClass("hidden")
     $("#contactCard").removeClass("hidden")
+    $("#contactCard").addClass("fadeInDown animated")
 });
 
 

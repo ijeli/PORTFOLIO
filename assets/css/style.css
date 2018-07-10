@@ -24,8 +24,18 @@ container {
     margin-top: 100px;
 }
 
+.cards {
+    background-color: rgb(212, 218, 223);
+    width: auto; 
+    height: auto;
+    border-width: 10px;
+    border-style: double;
+    border-color: rgb(53, 45, 45);
+}
+
 html {
     height:100%;
+    width: 100%
 }
 
 body{ 
