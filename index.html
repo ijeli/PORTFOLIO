@@ -27,7 +27,7 @@
                 <div class = "col-lg-12">
                     <div class = "row">
                         <div class = "col-lg-12 text-center">
-                            <img class = "rounded-circle img-fluid image" src = "./assets/images/holder.jpg" alt = "headshot" width="300px" height="300px">
+                            <img id = "hideall" class = "rounded-circle img-fluid image mainclickablesicon backtop" src = "./assets/images/holder.jpg" alt = "headshot" width="300px" height="300px">
                         </div>
                     </div>
                     <br>
@@ -52,20 +52,17 @@
                     <br>
                     <div class = "row" align = "center">
                         <div class = "col-lg-4 ">
-                            <a href = "#aboutCard" style = "text-decoration: none;">
+                            <a href = "#aboutCardb" style = "text-decoration: none;">
                                 <h5 id = "about" class = "mainclickables">ABOUT<span class="fa fa-chevron-down"></span></h5>
                             </a>
                         </div>
-                        <!-- <div class = "col-lg-3">
-                            <h5 id = "resume" class = "mainclickables">RESUME</h5>
-                        </div> -->
                         <div class = "col-lg-4 ">
                             <a href = "#worksCardb" style = "text-decoration: none;">
                                 <h5 id = "works" class = "mainclickables">WORKS<span class="fa fa-chevron-down"></h5>
                             </a>
                         </div>
                         <div class = "col-lg-4 ">
-                            <a href = "#contactCard" style = "text-decoration: none;">
+                            <a href = "#contactCardb" style = "text-decoration: none;">
                                 <h5 id = "contact" class = "mainclickables">CONTACT<span class="fa fa-chevron-down"></h5>
                             </a>
                         </div>
@@ -74,11 +71,11 @@
             </div>
             <br>
         </div>
-        <div id = "aboutCard" class = "cards fadeInDown animated" >
+        <div id = "aboutCard" class = "cards hidden fadeInDown animated" >
             <br>
             <h2 align = "center">
                 About Me
-                <button type="button" class="btn btn-outline-dark btn-sm hideallbutton">
+                <button type="button" class="btn btn-outline-dark btn-sm hideallbutton backtop">
                     <span class="fa fa-chevron-up"></span>
                 </button>
             </h2>
@@ -112,34 +109,19 @@
                             </div>
                             <div class = "col-lg-5">
                                 <p>RESIDENCE.....USA</p>
-                                <p>ADDRESS.....Washington, D.C.</p>
+                                <p>ADDRESS.....Arlington, VA</p>
                             </div>
                         </div>
                     </div>
                     <div class = "col-lg-1"></div>
             </div>
-            <br>
-        </div>
-        <!-- <div id = "resumeCard" class = "cards hidden">
-            <br>
-            <h2  align = "center">Resume</h2>
-            <div class = "row">
-                <div class = "col-lg-1"></div>
-                <div class = "col-lg-10 border-bottom border-dark"></div>
-            </div>
-            <div class = "row">
-                <div class = "col-lg-1"></div>
-                <div class = "col-lg-10">
-                    goods
-                </div>
-                <div class = "col-lg-1"></div>
-            </div>
-        </div> -->
+            <br id = "aboutCardb">
+        </div >
         <div id = "worksCard" class = "cards hidden">
             <br>
             <h2  align = "center">
                 Works
-                <button type="button" class="btn btn-outline-dark btn-sm hideallbutton">
+                <button type="button" class="btn btn-outline-dark btn-sm hideallbutton backtop">
                     <span class="fa fa-chevron-up"></span>
                 </button>
             </h2>
@@ -207,7 +189,7 @@
             <br>
             <h2  align = "center">
                 Contact Me
-                <button type="button" class="btn btn-outline-dark btn-sm hideallbutton">
+                <button type="button" class="btn btn-outline-dark btn-sm hideallbutton backtop">
                     <span class="fa fa-chevron-up"></span>
                 </button>
             </h2>
@@ -234,8 +216,8 @@
                         </form>
                 </div>
             </div>
-            <br>
-        </div>
+            <br id = "contactCardb">
+        </div >
     </div>
     <br>
 

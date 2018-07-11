@@ -45,6 +45,15 @@ $(".hideallbutton").on("click", function() {
     $("#contactCard").addClass("fadeOutUp animated")
 });
 
+$("#hideall").on("click", function () {
+    $("#aboutCard").addClass("fadeOutUp animated")
+    $("#worksCard").addClass("fadeOutUp animated")
+    $("#contactCard").addClass("fadeOutUp animated")
+});
+
+$(".backtop").on("click", function () {
+    window.scrollTo(0,0)
+});
 
 
 
