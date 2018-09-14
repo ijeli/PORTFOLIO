@@ -15,6 +15,7 @@ about.on("click", function() {
     $("#aboutCard").removeClass("fadeOutUp ")
     $("#worksCard").removeClass("fadeOutUp ")
     $("#contactCard").removeClass("fadeOutUp ")
+    $("#skillsCard").addClass("hidden")
 });
 
 
@@ -27,6 +28,8 @@ works.on("click", function() {
     $("#aboutCard").removeClass("fadeOutUp ")
     $("#worksCard").removeClass("fadeOutUp ")
     $("#contactCard").removeClass("fadeOutUp ")
+    $("#skillsCard").addClass("hidden")
+
 });
 
 skills.on("click", function() {
@@ -49,6 +52,8 @@ contact.on("click", function() {
     $("#aboutCard").removeClass("fadeOutUp ")
     $("#worksCard").removeClass("fadeOutUp ")
     $("#contactCard").removeClass("fadeOutUp ")
+    $("#skillsCard").addClass("hidden")
+
 });
 
 $(".hideallbutton").on("click", function() {
