@@ -2,6 +2,7 @@ var content = $("#content");
 var about = $("#about");
 var works = $("#works");
 var contact = $("#contact");
+var skills = $("#skills");
 
 
 
@@ -28,6 +29,17 @@ works.on("click", function() {
     $("#contactCard").removeClass("fadeOutUp ")
 });
 
+skills.on("click", function() {
+    $("#aboutCard").addClass("hidden")
+    // $("#resumeCard").addClass("hidden")
+    $("#worksCard").addClass("hidden")
+    $("#skillsCard").removeClass("hidden")
+    $("#skillsCard").addClass("fadeInDown animated")
+    $("#aboutCard").removeClass("fadeOutUp ")
+    $("#worksCard").removeClass("fadeOutUp ")
+    $("#skillsCard").removeClass("fadeOutUp ")
+});
+
 contact.on("click", function() {
     $("#aboutCard").addClass("hidden")
     // $("#resumeCard").addClass("hidden")
@@ -43,6 +55,7 @@ $(".hideallbutton").on("click", function() {
     $("#aboutCard").addClass("fadeOutUp animated")
     $("#worksCard").addClass("fadeOutUp animated")
     $("#contactCard").addClass("fadeOutUp animated")
+    $("#skillsCard").addClass("fadeOutUp animated")
 });
 
 $("#hideall").on("click", function () {
