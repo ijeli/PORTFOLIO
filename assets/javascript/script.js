@@ -36,6 +36,7 @@ skills.on("click", function() {
     $("#aboutCard").addClass("hidden")
     // $("#resumeCard").addClass("hidden")
     $("#worksCard").addClass("hidden")
+    $("#contactCard").addClass("hidden")
     $("#skillsCard").removeClass("hidden")
     $("#skillsCard").addClass("fadeInDown animated")
     $("#aboutCard").removeClass("fadeOutUp ")
